@@ -10,7 +10,7 @@ class Book
   
   def genre(genre)
     @genre = genre
-    GENRES << @genre if GENRES.include?(@genre) == false
+    GENRES << genre if GENRES.include?(genre) == false
   end
 
   def turn_page
